@@ -56,6 +56,12 @@ const props = defineProps({
       </button>
     </div>
     Message from API: {{ props.message }}
+    <Teleport to="#app">
+      <p>Teleport to #app</p>
+    </Teleport>
+    <Teleport to="body">
+      <p>Teleport to body</p>
+    </Teleport>
   </div>
 </template>
 
